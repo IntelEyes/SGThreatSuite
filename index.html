@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecOps Garage Threat Suite</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for Inter font and general body styling */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background */
+            color: #333;
+            line-height: 1.6;
+        }
+        /* Ensure rounded corners on all elements */
+        * {
+            border-radius: 0.5rem; /* Default rounded corners */
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-4">
+    <div class="container mx-auto bg-white shadow-xl rounded-xl p-8 md:p-12 max-w-4xl">
+        <!-- Project Title Section -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-blue-700 mb-4">SecOps Garage Threat Suite</h1>
+            <p class="text-lg text-gray-600">A comprehensive suite for threat detection and security operations.</p>
+        </header>
 
+        <!-- Project Overview Section -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Overview</h2>
+            <p class="text-gray-700 leading-relaxed">
+                Welcome to the official page for SecOps Garage Threat Suite! This project aims to solve [specific problem] by providing [key solution/features]. It's built with [technologies used] and designed to be [qualities like user-friendly, efficient, scalable].
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-3">
+                Whether you're a developer looking to contribute, a user interested in its capabilities, or just curious, you'll find all the information you need here.
+            </p>
+        </section>
+
+        <!-- Features Section -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Key Features</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-2 pl-4">
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <strong>Feature One:</strong> Describe the first key feature and its benefit.
+                </li>
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <strong>Feature Two:</strong> Explain the second feature and why it's important.
+                </li>
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <strong>Feature Three:</strong> Detail the third feature and its unique selling point.
+                </li>
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <strong>And More:</strong> Mention any other notable aspects or future plans.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Demo/Usage Section -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">How to Use / Demo</h2>
+            <p class="text-gray-700 leading-relaxed mb-4">
+                You can see a live demo of the project or find instructions on how to get started below:
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+                <a href="https://IntelEyes.github.io/SGThreatSuite/" target="_blank" rel="noopener noreferrer"
+                   class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105 flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0l-6 6M20 4L10 14"></path></svg>
+                    View Live Demo
+                </a>
+                <a href="https://github.com/IntelEyes/SGThreatSuite" target="_blank" rel="noopener noreferrer"
+                   class="bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105 flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.419 2.865 8.166 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.529 2.341 1.089 2.91.832.092-.647.35-1.089.636-1.338-2.22-.253-4.555-1.11-4.555-4.942 0-1.092.39-1.983 1.029-2.682-.103-.253-.446-1.272.098-2.65 0 0 .84-.268 2.75 1.022A9.687 9.087 0 0112 5.042c.85.004 1.701.113 2.503.333 1.909-1.29 2.747-1.022 2.747-1.022.546 1.379.202 2.398.099 2.65.64.699 1.029 1.59 1.029 2.682 0 3.843-2.339 4.686-4.566 4.935.359.307.678.915.678 1.846 0 1.33-.012 2.41-.012 2.737 0 .267.18.576.688.483C20.137 20.166 23 16.419 23 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd"></path></svg>
+                    View on GitHub
+                </a>
+            </div>
+        </section>
+
+        <!-- Contributing Section (Optional) -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Contributing</h2>
+            <p class="text-gray-700 leading-relaxed">
+                We welcome contributions to SecOps Garage Threat Suite! If you'd like to contribute, please check out our <a href="https://github.com/IntelEyes/SGThreatSuite/blob/main/CONTRIBUTING.md" class="text-blue-600 hover:underline">contributing guidelines</a> on GitHub.
+            </p>
+        </section>
+
+        <!-- License Section -->
+        <section class="text-center text-gray-500 text-sm">
+            <p>&copy; 2024 Your Name or Organization. Licensed under the <a href="https://github.com/IntelEyes/SGThreatSuite/blob/main/LICENSE" class="text-blue-600 hover:underline">MIT License</a>.</p>
+        </section>
+    </div>
+</body>
+</html>
